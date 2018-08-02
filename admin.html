@@ -1,0 +1,36 @@
+<!DOCTYPE.html>
+<html>
+
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+
+<body>
+    <form>
+        Name:<br>
+        <input type="text" name="name"></br>
+        Category:<br>
+        <input type="text" name="category"></br>
+        Price:<br>
+        <input type="number" name="price"></br>
+    </form>
+    <form action="/action_page.php">
+        Select image: <input type="file" name="img">
+    </form>
+
+    <button type="button" value="save" onclick="addNewObject()">Add house</button>
+    <button type="button" value="clear" onclick="clearDatabase()">Delete All</button>
+
+    <div>
+        <ol id="list"></ol>
+    </div>
+
+</script>
+    <script src ="/Users/bogdanpintilei/Documents/RailsInternship/WDAssignment1/admin.js"></script>
+
+</body>
+
+<footer>
+</footer>
+
+</html>

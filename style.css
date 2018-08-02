@@ -1,0 +1,134 @@
+body{min-height:200vh;}
+.fixed-top{
+  transition:500ms ease;
+  background:transparent;
+}
+
+.fixed-top.scrolled{
+  background: white;
+}
+
+.navbar_logo {
+    height: 2rem;
+    width: 2rem;
+}
+
+.logo_title {
+    padding-left: 10px;
+}
+
+.navbar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: Black;
+}
+
+.navbar_div {
+    display: table;
+}
+
+@media only screen and (max-width: 1000px) {
+    .fixed-top {
+        background: white;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,1);
+}
+
+.header {
+    background-image: url("https://static.dezeen.com/uploads/2017/08/clifton-house-project-architecture_dezeen_hero-1-1704x959.jpg");
+    height: 80%;
+    margin-top: 0em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overylay {
+    position: relative;
+    overflow-y: scroll;
+    min-width: inherit;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.50);
+}
+
+.container-fluid {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar-inverse {
+     height: 3rem;
+     background-color: 	rgb(245,245,245);
+}
+
+.navbar-inverse li{
+    padding-right: 20px;
+}
+
+.custom_container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.custom_card:hover {
+    z-index: 1;
+    transform: scale(1.2);
+}
+.round-image {
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .custom_image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.imageContainer {
+    margin: 10%;
+}
+.custom_border {
+    border-radius: 0;
+}
+
+.hide-top-margin {
+    border-top-color: transparent;
+}
+
+.hide-bottom-margin {
+    border-bottom-color: transparent;
+}
+
+.hide-left-margin {
+    border-left-color: transparent;
+}
+
+.hide-right-margin {
+    border-right-color: transparent;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.custom_footer {
+    background-color: rgb(245,245,245);
+    margin-bottom:0;
+    border-radius: 0;
+}
